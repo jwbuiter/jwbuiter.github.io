@@ -78,7 +78,7 @@ function loadMedia() {
  
         var mediaInfo = new
 chrome.cast.media.MediaInfo('https://www.reddit.com');
-        mediaInfo.contentType = 'text/html';
+        mediaInfo.contentType = 'image/png';
    
         var request = new chrome.cast.media.LoadRequest(mediaInfo);
         request.autoplay = true;
