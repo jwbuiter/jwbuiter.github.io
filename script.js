@@ -77,7 +77,7 @@ function loadMedia() {
         }
  
         var mediaInfo = new
-chrome.cast.media.MediaInfo('https://www.reddit.com');
+chrome.cast.media.MediaInfo('https://raw.githubusercontent.com/jwbuiter/jwbuiter.github.io/master/Gedicht.png');
         mediaInfo.contentType = 'image/png';
    
         var request = new chrome.cast.media.LoadRequest(mediaInfo);
